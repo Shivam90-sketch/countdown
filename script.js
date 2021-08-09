@@ -3,7 +3,7 @@ const hourss = document.getElementById('hours');
 const minss = document.getElementById('mins');
 const secondss = document.getElementById('seconds');
 
-const bdy = prompt("Enter your birthday");
+const bdy = prompt("Enter your birthday ex: date month current year / 31 Aug 2021");
 
 function coutdown(){
     const bdydate = new Date(bdy);
